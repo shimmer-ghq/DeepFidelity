@@ -52,7 +52,7 @@ bash /code/SSAAFormer/token_labeling/fidelity_test.py
 
 ## Results
 
-Our model achieves the following performance on [FaceForensics++](https://github.com/ondyari/FaceForensics), [Celeb-DF (v2)](https://github.com/yuezunli/celeb-deepfakeforensics),  and [WildDeepfake]([GitHub - deepfakeinthewild/deepfake-in-the-wild: deepfake dataset collected on the web for deepfake detection](https://github.com/deepfakeinthewild/deepfake-in-the-wild)):
+Our model achieves the following performance on [FaceForensics++](https://github.com/ondyari/FaceForensics), [Celeb-DF (v2)](https://github.com/yuezunli/celeb-deepfakeforensics),  and [WildDeepfake](https://github.com/deepfakeinthewild/deepfake-in-the-wild):
 
 | Dataset       | Acc    | AUC    | Model                                                                                                  |
 |:-------------:|:------:|:------:|:------------------------------------------------------------------------------------------------------:|
