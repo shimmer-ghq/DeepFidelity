@@ -1,10 +1,10 @@
 # DeepFidelity: Perceptual Forgery Fidelity Assessment for Deepfake Detection
 
-This repository is the official implementation of [DeepFidelity: Perceptual Forgery Fidelity Assessment for Deepfake Detection](). 
+This repository is the official implementation of [DeepFidelity: Perceptual Forgery Fidelity Assessment for Deepfake Detection](https://arxiv.org/abs/2312.04961). 
 
 ## Introduction
 
-DeepFidelity is a novel Deepfake detection framework that adaptively distinguishes real and fake faces with varying image quality by mining the perceptual forgery fidelity of face images. Specifically, we improve the model's ability to identify complex samples by mapping real and fake face data of different qualities to different scores to distinguish them in a more detailed way. In addition, we propose a network structure called Symmetric Spatial Attention Augmentation based vision Transformer (SSAAFormer), which uses the symmetry of face images to promote the network to model the geographic long-distance relationship at the shallow level and augment local features. 
+**DeepFidelity** is a novel Deepfake detection framework that adaptively distinguishes real and fake faces with varying image quality by mining the perceptual forgery fidelity of face images. Specifically, we improve the model's ability to identify complex samples by mapping real and fake face data of different qualities to different scores to distinguish them in a more detailed way. In addition, we propose a network structure called Symmetric Spatial Attention Augmentation based vision Transformer (SSAAFormer), which uses the symmetry of face images to promote the network to model the geographic long-distance relationship at the shallow level and augment local features. 
 
 ![avatar](imgs/framework.png)
 
@@ -60,4 +60,20 @@ Our model achieves the following performance on [FaceForensics++](https://github
 | Celeb-DF (v2) | 100%   | 100%   | [Celeb-DF (v2)](https://drive.google.com/file/d/11NxTLIk-V1f9bA-PPx91KS1GpC7qF7r_/view?usp=drive_link) |
 | WildDeepfake  | 88.34% | 92.33% | [WildDeepfake](https://drive.google.com/file/d/1ZkyWBeM9pzwcm_-u5j99cpgrS2zku7Su/view?usp=drive_link)  |
 
-Our code is modified based on https://github.com/Sense-X/UniFormer, here for the explanation and thanks.
+## Citation
+
+If you find this project useful for your research, please kindly cite our paper.
+```
+@misc{peng2023deepfidelity,
+      title={DeepFidelity: Perceptual Forgery Fidelity Assessment for Deepfake Detection}, 
+      author={Chunlei Peng and Huiqing Guo and Decheng Liu and Nannan Wang and Ruimin Hu and Xinbo Gao},
+      year={2023},
+      eprint={2312.04961},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
+}
+```
+
+## Acknowledgement
+
+Our project is built based on [UniFormer](https://github.com/Sense-X/UniFormer), here for the explanation and thanks.
